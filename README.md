@@ -1,2 +1,2 @@
 # favouritemealsapp
-visit on :https://github.com/786Shaahid/favouritemealsapp/new/master?readme=1
+visited on : https://786shaahid.github.io/favouritemealsapp/index.html
