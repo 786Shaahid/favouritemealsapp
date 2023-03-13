@@ -1,0 +1,84 @@
+
+#container{
+    width: 60rem;
+    margin:10px auto;
+    border: 1px solid black;
+    text-align: center;
+   
+  }
+  h1{
+   margin-top: 60px;
+    text-decoration: underline;
+  }
+  .fav-box {
+display: flexbox;
+width: 60rem;
+min-height: 15rem;
+border: 2px solid rgb(156, 156, 248);
+box-shadow: inset 2px 1px 10px 1px rgb(176, 146, 146);
+padding: 15px;}
+.center {
+margin: 10px auto;
+}
+#details-page {
+box-shadow: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+min-height: 15 rem;
+box-shadow: inset 2px 1px 10px 1px rgb(176, 146, 146);
+
+}
+.border {
+border: 2px solid black;
+margin: 5px;
+}
+.left-box {
+width: 16rem;
+min-height: 15rem;
+}
+
+.right-box {
+max-width: 35rem;
+min-width: 42rem;
+min-height: 20rem;
+padding: 10px;
+font-size: 16px;
+font-weight: 550;
+color: rgb(228, 178, 87);
+box-shadow: 1px 0px 1px 3px rgb(214, 208, 197);
+}
+#img-box{ 
+width: 16rem;
+height: 11rem;
+margin: 0;
+border-radius: 20px;
+box-shadow: 1px 0px 1px 3px rgb(214, 208, 197);
+background-size: cover;
+} 
+#meal-name {
+min-height:3rem;
+text-align: center;
+font-size: large;
+border-radius: 10px;
+font-weight: 600;
+background-color: rgb(245, 245, 241);
+color: rgb(193, 128, 44);
+box-shadow: 1px 0px 1px 3px rgb(214, 208, 197);
+
+}
+#removeBtn{
+border-style: none;
+width: 16rem;
+border: 3px solid rgb(206, 189, 168);
+border-radius: 10px;
+font-size: large;
+font-weight: 600;
+color: rgb(232, 171, 92);
+background-color: rgb(245, 245, 241);
+}
+.no-underline-link{
+  text-decoration: none;
+   color: rgb(193, 128, 44);
+  
+  }

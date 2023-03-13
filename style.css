@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-meal {
+    display: flexbox;
+    width: 60vw;
+    min-height: 15rem;
+    border: 2px solid rgb(156, 156, 248);
+    box-shadow: inset 2px 1px 10px 1px rgb(176, 146, 146);
+    padding: 15px;
+
+}
+
+.center {
+    margin: 10px auto;
+}
+
+.first-row {
+    width: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-img img {
+    width: 12rem;
+    height: 10rem;
+}
+
+#logo-para {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(155, 89, 9);
+    text-decoration: underline;
+}
+
+#search-box {
+    display: inline-block;
+    width: 20rem;
+    height: 2em;
+    border: 2px solid rgb(189, 129, 129);
+    padding-top: 15px;
+    border-radius: 50px;
+}
+
+#search {
+    border: none;
+    outline-style: none;
+    padding-left: 10px;
+    text-transform: capitalize;
+
+}
+
+#second-cols {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#search-box i {
+    color: rgb(206, 189, 168);
+    border-right: 2px solid rgb(191, 147, 124);
+    padding-right: 15px;
+    padding-left: 20px;
+
+}
+
+button {
+    background-color: white;
+    width: 10rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.style {
+    font-size: large;
+    font-family: sans-serif;
+    color: rgb(181, 110, 40);
+    font-weight: 500;
+    border-style: double;
+    border: 2px solid rgb(189, 129, 129);
+    border-radius: 50px;
+}
+
+button:hover,
+#search-box:hover {
+    background-color: azure;
+    box-shadow:  2px 2px 4px 4px rgb(207, 185, 145);
+}
+ .successBtnClick{
+background-color: rgb(5, 97, 67) !important;
+color: rgb(227, 195, 195) !important;
+outline: saddlebrown solid 3px;
+transition: 0.2s;
+}
+#details-page {
+    /* width: fit-content; */
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 15 rem;
+    box-shadow: inset 2px 1px 10px 1px rgb(176, 146, 146);
+
+}
+
+.border {
+    border: 2px solid black;
+    margin: 5px;
+
+}
+
+.left-box {
+    width: 16vw;
+    min-height: 15rem;
+    margin-right: 20px;
+}
+
+.right-box {
+   max-width: 30vw;
+   min-width: 40vw;
+    min-height: 15rem;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(228, 178, 87);
+    box-shadow: 1px 0px 1px 3px rgb(214, 208, 197);
+}
+#img{ 
+    width: 16rem;
+    height: 11rem;
+    margin: 0;
+    border-radius: 20px;
+    box-shadow: 1px 0px 1px 3px rgb(214, 208, 197);
+    background-size: cover;
+} 
+#name {
+    min-height:3rem;
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: rgb(245, 245, 241);
+     color: rgb(193, 128, 44);
+    box-shadow: 1px 0px 1px 3px rgb(214, 208, 197);
+    
+}
+#addToFav{
+border-style: none;
+width: 16rem;
+border: 3px solid rgb(206, 189, 168);
+border-radius: 10px;
+font-size: large;
+font-weight: 600;
+color: rgb(232, 171, 92);
+background-color: rgb(245, 245, 241);
+}
+#addToFav:click{
+background: #000;
+}
+.no-underline-link{
+text-decoration: none;
+ color: rgb(193, 128, 44);
+
+}
